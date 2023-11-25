@@ -7,6 +7,9 @@ nginx-rtmp-win32
 * pcre-8.42
 * zlib-1.2.11
 
+# dev分支说明
+在1.2.1基础上做一些小修改，原版请用master分支
+
 # configure arguments
 ```
 nginx version: nginx/1.14.1
@@ -44,9 +47,12 @@ HTTP监听 8080 端口，
 
 # 直播测试工具 
 内置了一个方便测试的pc端推流于播放的工具
-![img](https://github.com/NodeMedia/NodeMediaDevClient/raw/master/QQ20160310-0.png)
-源码在此:https://github.com/NodeMedia/NodeMediaDevClient
+[vlc player支持本地和在线直播](https://www.videolan.org)
+![image](https://user-images.githubusercontent.com/18340126/140310626-417b47b9-43e5-42a4-9066-19cd29ffc486.png)
+![image](https://user-images.githubusercontent.com/18340126/140310865-d39b9076-475b-40c2-8ea0-ea8f8f75bfaa.png)
 
-# 另一个选择，支持HTTP-FLV
-基于Node.js实现,高性能,原生跨平台,支持RTMP/HTTP-FLV/GOPcache
-https://github.com/illuspas/Node-Media-Server 
+
+# H265
+支持ID=12的h265流,需要客户端支持.
+![image](https://user-images.githubusercontent.com/18340126/139591839-4e58af57-c6d7-4bea-8c8e-e536173bc4ef.png)
+
